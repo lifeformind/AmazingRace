@@ -1,0 +1,26 @@
+{
+  "name": "amazingrace",
+  "version": "1.0.0",
+  "description": "AmazingRace project with Google Jules agent integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "interactive": "node interactive.js",
+    "test-setup": "node test-setup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google",
+    "jules",
+    "agent",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "@google-ai/generativelanguage": "^2.5.0",
+    "google-auth-library": "^9.4.0",
+    "dotenv": "^16.3.1"
+  }
+}
